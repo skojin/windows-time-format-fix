@@ -1,0 +1,9 @@
+WindowsTimeFormatFix
+====================
+
+Time#strftime on windows not has following options
+%e - day without leading zero
+%i - 12 hours without leading zero
+%k - 24 hours without leading zero
+
+This plugin fix it
